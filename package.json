@@ -2,7 +2,7 @@
   "name": "hello",
   "version": "0.0.1",
   "scripts": {
-    "start": "ng serve",
+    "serve": "ng serve -o",
     "build": "ng build"
   },
   "private": true,
