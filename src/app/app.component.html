@@ -1,0 +1,50 @@
+<div>
+
+    <nav class="navbar navbar-expand-sm sticky-top navbar-dark bg-dark mb-4">
+
+        <div class="d-block d-sm-block d-md-none">
+            <button  class="btn" type="button" data-toggle="collapse" data-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div id="menu" class="dropdown-menu shadow">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Separated link</a>
+                <a class="dropdown-item" href="#">Separated link</a>
+            </div>
+
+        </div>
+
+
+        <div class="navbar-brand">NGII</div>
+
+
+        <ul class="nav justify-content-start mr-auto">
+            <li lass="nav-item"><a class="nav-link" routerLink="/seller">Sellers</a></li>
+            <li lass="nav-item"><a class="nav-link" routerLink="/lorem">Lorem</a></li>
+        </ul>
+
+        <ul class="nav justify-content-end ml-auto">
+            <li lass="nav-item">
+                <a class="nav-link" href="/logout">Logout</a>
+            </li>
+
+        </ul>
+    </nav>
+
+    <router-outlet></router-outlet>
+
+    <div class="container">
+        <div class="row">
+            <div class="col mt-5">
+                <hr class="justify-content-sm-center" />
+                <div class="text-center"><small>Made by Oleg Borodin</small></div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
